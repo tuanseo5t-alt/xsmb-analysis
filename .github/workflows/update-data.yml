@@ -1,0 +1,42 @@
+name: Update data
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Chạy lúc 18:35 mỗi ngày theo giờ Việt Nam (UTC+7)
+    # GitHub Actions dùng UTC nên: 18:35 VN = 11:35 UTC
+    - cron: '35 11 * * *'
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo content
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+
+      - name: Install dependencies
+        run: pip install -e .
+
+      - name: Fetch data
+        run: python src/fetch.py
+
+      - name: Analyze data
+        run: python src/analyze.py
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add .
+          git commit -m "Updated $(date +'%Y-%m-%d')"
+          git push origin main
