@@ -9,7 +9,7 @@ from lottery import Lottery, is_tet, is_covid_suspension, is_no_draw_day
 
 from datetime import date
 START_DATE = date(2020, 1, 1)  # None = bắt đầu từ dữ liệu hiện có; hoặc truyền date(...) để build lại từ đầu
-END_DATE = date(2020, 6, 1)    # None = đến hôm nay; chỉ dùng khi chạy thử
+END_DATE = None                 # None = đến hôm nay; truyền date(...) để giới hạn ngày kết thúc
 
 
 if __name__ == '__main__':
