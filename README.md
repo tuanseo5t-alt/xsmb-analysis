@@ -10,7 +10,7 @@ Dự án này được tạo bởi [Khiêm Đoàn](https://github.com/khiemdoan)
 
 | Lottery (Xổ số) | Loto (Lô tô) |
 | :------------: | :----------: |
-| <table><tr><td>Date (Ngày)</td><td>26-08-2026</td></tr><tr><td>Weekday (Thứ)</td><td>Thứ tư</td></tr><tr><td>Province (Tỉnh)</td><td>KẾT QUẢ XỔ SỐ Miền Bắc</td></tr><tr><td>Special symbol (Ký hiệu trúng ĐB)</td><td>9FL-1FL-14FL-10FL-2FL-15FL</td></tr><tr><td>Special (Giải đặc biệt)</td><td>85361</td></tr><tr><td>First (Giải nhất)</td><td>87270</td></tr><tr><td>Second (Giải nhì)</td><td>99607, 26879</td></tr><tr><td rowspan="2">Third (Giải ba)</td><td>34655, 15876, 67702</td></tr><tr><td>14066, 83648, 26091</td></tr><tr><td>Fourth (Giải tư)</td><td>7383, 0321, 9687, 4561</td></tr><tr><td rowspan="2">Fifth (Giải năm)</td><td>5438, 4932, 7003</td></tr><tr><td>8735, 7654, 0198</td></tr><tr><td>Sixth (Giải sáu)</td><td>611, 665, 226</td></tr><tr><td>Seventh (Giải bảy)</td><td>23, 68, 96, 69</td></tr></table> | <table><tr><td>First (Đầu)</td><td>Last (Đuôi)</td></tr><tr><td>0</td><td>2, 3, 7</td></tr><tr><td>1</td><td>1</td></tr><tr><td>2</td><td>1, 3, 6</td></tr><tr><td>3</td><td>2, 5, 8</td></tr><tr><td>4</td><td>8</td></tr><tr><td>5</td><td>4, 5</td></tr><tr><td>6</td><td>1, 1, 5, 6, 8, 9</td></tr><tr><td>7</td><td>0, 6, 9</td></tr><tr><td>8</td><td>3, 7</td></tr><tr><td>9</td><td>1, 6, 8</td></tr></table> |
+| <table><tr><td>Date (Ngày)</td><td>27-08-2026</td></tr><tr><td>Weekday (Thứ)</td><td>Thứ năm</td></tr><tr><td>Province (Tỉnh)</td><td>KẾT QUẢ XỔ SỐ Miền Bắc</td></tr><tr><td>Special symbol (Ký hiệu trúng ĐB)</td><td>12FM-20FM-8FM-5FM-11FM-14FM-4FM-7FM</td></tr><tr><td>Special (Giải đặc biệt)</td><td>82645</td></tr><tr><td>First (Giải nhất)</td><td>76199</td></tr><tr><td>Second (Giải nhì)</td><td>38417, 43370</td></tr><tr><td rowspan="2">Third (Giải ba)</td><td>71224, 57662, 91737</td></tr><tr><td>55918, 33648, 41452</td></tr><tr><td>Fourth (Giải tư)</td><td>2895, 3322, 1638, 3018</td></tr><tr><td rowspan="2">Fifth (Giải năm)</td><td>3643, 3131, 9679</td></tr><tr><td>0817, 1334, 5394</td></tr><tr><td>Sixth (Giải sáu)</td><td>299, 481, 173</td></tr><tr><td>Seventh (Giải bảy)</td><td>03, 86, 61, 71</td></tr></table> | <table><tr><td>First (Đầu)</td><td>Last (Đuôi)</td></tr><tr><td>0</td><td>3</td></tr><tr><td>1</td><td>7, 7, 8, 8</td></tr><tr><td>2</td><td>2, 4</td></tr><tr><td>3</td><td>1, 4, 7, 8</td></tr><tr><td>4</td><td>3, 5, 8</td></tr><tr><td>5</td><td>2</td></tr><tr><td>6</td><td>1, 2</td></tr><tr><td>7</td><td>0, 1, 3, 9</td></tr><tr><td>8</td><td>1, 6</td></tr><tr><td>9</td><td>4, 5, 9, 9</td></tr></table> |
 
 ## Data (Dữ liệu)
 
@@ -57,7 +57,7 @@ df.info()
 
   Max: 123. Min: 82.
 
-  Mean: 97.47. Standard deviation: 10.37.
+  Mean: 97.47. Standard deviation: 10.39.
 
   <h3>Detail (Chi tiết)</h3>
 
